@@ -23,13 +23,17 @@ c++ -std=c++17 task{i}/main.cpp -o build/task{i}
 
 Пример ввода:
 
+```text
 1
 1 2
 2
 set 0 0 1 5
 note test
+```
 
 Вывод:
 
+```text
 note: test
 zone 0: 5
+```
